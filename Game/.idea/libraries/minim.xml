@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="minim">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Processing.3.5.4.x64_YasDL.com/core/library/minim.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

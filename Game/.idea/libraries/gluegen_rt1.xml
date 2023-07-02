@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gluegen-rt1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Processing.3.5.4.x64_YasDL.com/core/library/gluegen-rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
