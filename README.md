@@ -2,6 +2,8 @@
 
 Brick Invaders is an exciting arcade game that will test your shooting skills. Defend your ship against descending meteors and giants. Find your way through the enemies with three different ships, each with its own firepower.
 
+This game uses 3D shapes for the ships, SVG files for hearts and meteors, and JPG files for the background. The ships are implemented using their own classes, which depict the ship and check its x and y coordinates to ensure it remains on the screen.
+
 ## Features
 - Start and Help Menu: This game also has a help menu and a start menu.
 
