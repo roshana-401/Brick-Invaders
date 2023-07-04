@@ -813,32 +813,32 @@ public class Main extends PApplet {
 
     public void checkCrushedtoGaint(ArrayList<Buttle> buttles) {
         Iterator<Buttle> iterator = buttles.iterator();
-        int i = 0;
+        int times = 0;
         while (iterator.hasNext()) {
             Buttle b = iterator.next();
             if (b.getButtleY() <= Gaintt.getGaintY() + 150 && b.getButtleX() > Gaintt.getGaintX() - 90 && b.getButtleX() < Gaintt.getGaintX() + 330) {
                 iterator.remove();
-                i++;
-                if (boolspaceship1 == true && i == 10) {
+                times++;
+                if (boolspaceship1 == true && times == 15) {
                     BlackHeartt -= 1;
                     if (BlackHeartt <= 0) {
                         checkwintoGaint = true;
                     }
-                    i = 0;
+                    times = 0;
                 }
-                if (boolspaceship2 == true) {
+                if (boolspaceship2 == true && times==10) {
                     BlackHeartt -= 2;
                     if (BlackHeartt <= 0) {
                         checkwintoGaint = true;
                     }
-                    i = 0;
+                    times = 0;
                 }
                 if (boolspaceship3 == true) {
                     BlackHeartt -= 3;
                     if (BlackHeartt <= 0) {
                         checkwintoGaint = true;
                     }
-                    i = 0;
+                    times = 0;
                 }
 
             } else if (b.getButtleY() < -20) {
