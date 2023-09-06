@@ -7,7 +7,7 @@ This game uses 3D shapes for the ships, SVG files for hearts and meteors, and JP
 ## Features
 - Start and Help Menu: This game also has a help menu and a start menu.
 
-![Uploading image.png…]()
+![2023-09-06-14-15-28](https://github.com/roshana-401/Brick-Invaders/assets/132509624/0786ef6f-aa5b-4c3b-a3a9-4fa975c496e3)
 ![20230701153237](https://github.com/roshana-401/Brick-Invaders/assets/132509624/9becf30d-b60e-4a6a-bbe3-6e4f181f909f)
 
 - Three ships: Start the game with a normal ship. By collecting points, you can unlock the next ship.
